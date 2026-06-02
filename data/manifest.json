@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-06-02T10:06:27+00:00",
+  "title": "Rulers of Ancient Rome",
+  "totals": {
+    "rulers": 112,
+    "with_image": 112,
+    "with_extract": 112,
+    "chat_ready": 88
+  },
+  "periods": {
+    "kingdom": 7,
+    "republic": 16,
+    "empire": 89
+  },
+  "bounds": {
+    "min_year": -771,
+    "max_year": 476
+  },
+  "handoff": {
+    "year": 476,
+    "site": "rulers.ofthepast.org",
+    "url": "https://rulers.ofthepast.org",
+    "label": "The rulers of the past",
+    "note": "When Rome falls in 476, the story continues — the same system, carried forward through the centuries that follow."
+  },
+  "sources": {
+    "wikidata": {
+      "status": "ok",
+      "matched": 112,
+      "total": 112,
+      "no_match": [],
+      "non_human": [
+        "romulus",
+        "gracchi"
+      ],
+      "referenced_labels": 597,
+      "elapsed_seconds": 41.6
+    },
+    "wikipedia": {
+      "status": "ok",
+      "extracts": 112,
+      "total": 112,
+      "chat_ready": 88,
+      "no_match": [],
+      "elapsed_seconds": 8.1
+    }
+  }
+}

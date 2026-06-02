@@ -1,0 +1,793 @@
+[
+ {
+  "order": 1,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Romulus, mythical king",
+  "href": "/encyclopedia/arts/classical-lit/myths-folklore/romulus"
+ },
+ {
+  "order": 2,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Numa Pompilius, king",
+  "href": "/encyclopedia/arts/classical-lit/myths-folklore/numa-pompilius"
+ },
+ {
+  "order": 3,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Tullus Hostilius, king",
+  "href": null
+ },
+ {
+  "order": 4,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Ancus Marcius, king",
+  "href": "/dictionary/ancus-marcius"
+ },
+ {
+  "order": 5,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Tarquin the Elder, king",
+  "href": "/encyclopedia/people/history/roman/tarquin"
+ },
+ {
+  "order": 6,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Servius Tullius, king",
+  "href": null
+ },
+ {
+  "order": 7,
+  "period": "Kingdom of Rome",
+  "dynasty": null,
+  "text": "Tarquin the Proud, deposed king",
+  "href": "/encyclopedia/people/history/roman/tarquin"
+ },
+ {
+  "order": 8,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Lucius Junius Brutus (founded Republic in 510 B.C.)",
+  "href": "/encyclopedia/history/classical/roman-bios/brutus-in-ancient-rome"
+ },
+ {
+  "order": 9,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Scipio Africanus, general and consul who defeated Hannibal at the Battle of Zama, and defeated Carthage in the Punic Wars. (236–183 B.C.)",
+  "href": "/encyclopedia/history/classical/roman-bios/scipio-africanus-major"
+ },
+ {
+  "order": 10,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Cato the Elder, statesman (234–149 B.C.)",
+  "href": "/encyclopedia/people/history/roman/cato-the-elder"
+ },
+ {
+  "order": 11,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Gracchi, (Tiberius Sempronius Gracchus [d. 133B.C.] and Gaius Sempronius Gracchus [d. 121 B.C.], statesmen and social reformers",
+  "href": "/encyclopedia/people/history/roman/gracchi"
+ },
+ {
+  "order": 12,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Gaius Marius, general and consul (157–86 B.C.)",
+  "href": "/encyclopedia/people/history/roman/marius-caius"
+ },
+ {
+  "order": 13,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Lucius Cornelius Sulla, general and consul (138–78 B.C.)",
+  "href": "/encyclopedia/people/history/roman/sulla-lucius-cornelius"
+ },
+ {
+  "order": 14,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Pompey, general and member of First Triumvirate with Julius Caesar and Crassus (106–48B.C.)",
+  "href": "/encyclopedia/people/history/roman/pompey"
+ },
+ {
+  "order": 15,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Marcus Licinius Crassus, member of First Triumvirate with Caesar and Pompey (d. 53 B.C.)",
+  "href": "/encyclopedia/people/history/roman/crassus"
+ },
+ {
+  "order": 16,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Marcus Tullius Cicero, statesman (106 BC–43 B.C.)",
+  "href": "/encyclopedia/history/classical/roman-bios/cicero-roman-orator"
+ },
+ {
+  "order": 17,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Julius Caesar, governor of Gaul, general and statesman (100?–44 B.C.)",
+  "href": "/encyclopedia/people/history/roman/caesar-julius"
+ },
+ {
+  "order": 18,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Cato the Younger, statesman (95–46 B.C.)",
+  "href": "/encyclopedia/people/history/roman/cato-the-younger"
+ },
+ {
+  "order": 19,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Marcus Junius Brutus, statesman (85–42 B.C.)",
+  "href": "/encyclopedia/history/classical/roman-bios/brutus-in-ancient-rome"
+ },
+ {
+  "order": 20,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Caius Cassius Longinus, (d. 42 BC)",
+  "href": "/encyclopedia/history/classical/roman-bios/cassius"
+ },
+ {
+  "order": 21,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Mark Antony, politician and soldier, member of Second Triumvirate with Lepidus and Octavian (Augustus) (83–30 B.C.)",
+  "href": "/encyclopedia/people/history/roman/antony"
+ },
+ {
+  "order": 22,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Marcus Agrippa (c.63 B.C.–12 B.C.)",
+  "href": "/encyclopedia/history/classical/roman-bios/agrippa-marcus-vipsanius"
+ },
+ {
+  "order": 23,
+  "period": "Roman Republic",
+  "dynasty": null,
+  "text": "Lepidus, member of Second Triumvirate with Marc Antony and Octavian (d. 13 B.C.)",
+  "href": "/encyclopedia/people/history/roman/lepidus"
+ },
+ {
+  "order": 24,
+  "period": "Roman Empire",
+  "dynasty": "The Julio-Claudian Dynasty",
+  "text": "Augustus, (Octavian) first emperor, grandnephew of Julius Caesar, (27 B.C.–A.D. 14)",
+  "href": "/encyclopedia/people/history/roman/augustus"
+ },
+ {
+  "order": 25,
+  "period": "Roman Empire",
+  "dynasty": "The Julio-Claudian Dynasty",
+  "text": "Tiberius, stepson of Augustus, (14–37)",
+  "href": "/encyclopedia/people/history/roman/tiberius"
+ },
+ {
+  "order": 26,
+  "period": "Roman Empire",
+  "dynasty": "The Julio-Claudian Dynasty",
+  "text": "Caligula, grandnephew of Tiberius (37–41)",
+  "href": "/encyclopedia/people/history/roman/caligula"
+ },
+ {
+  "order": 27,
+  "period": "Roman Empire",
+  "dynasty": "The Julio-Claudian Dynasty",
+  "text": "Claudius, uncle of Caligula (41–54)",
+  "href": "/encyclopedia/people/history/roman/claudius-i"
+ },
+ {
+  "order": 28,
+  "period": "Roman Empire",
+  "dynasty": "The Julio-Claudian Dynasty",
+  "text": "Nero, stepson of Claudius (54–68)",
+  "href": "/encyclopedia/people/history/roman/nero"
+ },
+ {
+  "order": 29,
+  "period": "Roman Empire",
+  "dynasty": "The Year of the Four Emperors",
+  "text": "Galba, proclaimed emperor by his soldiers (68–69)",
+  "href": "/encyclopedia/people/history/roman/galba"
+ },
+ {
+  "order": 30,
+  "period": "Roman Empire",
+  "dynasty": "The Year of the Four Emperors",
+  "text": "Otho, military commander (69)",
+  "href": "/encyclopedia/people/history/roman/otho-marcus-salvius"
+ },
+ {
+  "order": 31,
+  "period": "Roman Empire",
+  "dynasty": "The Year of the Four Emperors",
+  "text": "Vitellius, military commander (69)",
+  "href": "/encyclopedia/people/history/roman/vitellius-aulus"
+ },
+ {
+  "order": 32,
+  "period": "Roman Empire",
+  "dynasty": "The Year of the Four Emperors",
+  "text": "Vespasian, military commander (69–79)",
+  "href": "/encyclopedia/people/history/roman/vespasian"
+ },
+ {
+  "order": 33,
+  "period": "Roman Empire",
+  "dynasty": "The Flavian Dynasty",
+  "text": "Vespasian, military commander (69–79)",
+  "href": "/encyclopedia/people/history/roman/vespasian"
+ },
+ {
+  "order": 34,
+  "period": "Roman Empire",
+  "dynasty": "The Flavian Dynasty",
+  "text": "Titus, son of Vespasian (79–81)",
+  "href": "/encyclopedia/people/history/roman/titus-roman-emperor"
+ },
+ {
+  "order": 35,
+  "period": "Roman Empire",
+  "dynasty": "The Flavian Dynasty",
+  "text": "Domitian, son of Vespasian (81–96)",
+  "href": "/encyclopedia/people/history/roman/domitian"
+ },
+ {
+  "order": 36,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Nerva, elected interim ruler (96-98)",
+  "href": "/encyclopedia/people/history/roman/nerva"
+ },
+ {
+  "order": 37,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Trajan, adopted son of Nerva (98–117)",
+  "href": "/encyclopedia/people/history/roman/trajan"
+ },
+ {
+  "order": 38,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Hadrian, ward of Trajan (117–138)",
+  "href": "/encyclopedia/people/history/roman/hadrian-roman-emperor"
+ },
+ {
+  "order": 39,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Antoninus Pius, adopted by Hadrian (138–161)",
+  "href": "/encyclopedia/people/history/roman/antoninus-pius"
+ },
+ {
+  "order": 40,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Marcus Aurelius, adopted by Antoninus Pius (161–180)",
+  "href": "/encyclopedia/people/history/roman/marcus-aurelius"
+ },
+ {
+  "order": 41,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Lucius Verus, adopted by Antoninus Pius; ruled jointly with Marcus Aurelius (161–169)",
+  "href": null
+ },
+ {
+  "order": 42,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Commodus, son of Marcus Aurelius (180–192)",
+  "href": "/encyclopedia/people/history/roman/commodus"
+ },
+ {
+  "order": 43,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Pertinax, proclaimed emperor by the Praetorian Guard (193)",
+  "href": "/encyclopedia/people/history/roman/pertinax"
+ },
+ {
+  "order": 44,
+  "period": "Roman Empire",
+  "dynasty": "The Nerva-Antonine Dynasty",
+  "text": "Didius Julianus, bought office from the Praetorian Guard (193)",
+  "href": "/encyclopedia/people/history/roman/didius-julianus"
+ },
+ {
+  "order": 45,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Septimius Severus, proclaimed emperor (193–211)",
+  "href": "/encyclopedia/people/history/roman/severus-lucius-septimius-severus-roman-emperor"
+ },
+ {
+  "order": 46,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Caracalla, son of Severus (211–217)",
+  "href": "/encyclopedia/people/history/roman/caracalla"
+ },
+ {
+  "order": 47,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Geta, son of Severus, ruled jointly with Caracalla (211–212)",
+  "href": null
+ },
+ {
+  "order": 48,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Macrinus, proclaimed emperor by his soldiers (217–18)",
+  "href": "/encyclopedia/people/history/roman/macrinus"
+ },
+ {
+  "order": 49,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Heliogabalus or Elagabalus, cousin of Caracalla (218–222)",
+  "href": "/encyclopedia/people/history/roman/heliogabalus"
+ },
+ {
+  "order": 50,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Alexander Severus, cousin of Heliogabalus (222–235)",
+  "href": "/encyclopedia/people/history/roman/alexander-severus"
+ },
+ {
+  "order": 51,
+  "period": "Roman Empire",
+  "dynasty": "The Severan Dynasty",
+  "text": "Maximin, proclaimed emperor by soldiers, (235–238)",
+  "href": "/encyclopedia/people/history/roman/maximin-d-238-roman-emperor"
+ },
+ {
+  "order": 52,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Gordian I, made emperor by the senate (238)",
+  "href": "/encyclopedia/people/history/roman/gordian"
+ },
+ {
+  "order": 53,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Gordian II, son of Gordian I, ruled jointly with his father (238)",
+  "href": "/encyclopedia/people/history/roman/gordian"
+ },
+ {
+  "order": 54,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Balbinus, elected joint emperor by the senate (238)",
+  "href": null
+ },
+ {
+  "order": 55,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Pupienus Maximus, elected joint emperor with Balbinus by the senate (238)",
+  "href": null
+ },
+ {
+  "order": 56,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Gordian III, son of Gordian II (238–244)",
+  "href": "/encyclopedia/people/history/roman/gordian"
+ },
+ {
+  "order": 57,
+  "period": "Roman Empire",
+  "dynasty": "The Gordian Dynasty",
+  "text": "Philip (the Arabian), assassin of Gordian III (244–249)",
+  "href": "/encyclopedia/people/history/roman/philip-roman-emperor"
+ },
+ {
+  "order": 58,
+  "period": "Roman Empire",
+  "dynasty": "The Decian Dynasty",
+  "text": "Decius, proclaimed emperor by the soldiers (249–2251)",
+  "href": "/encyclopedia/people/history/roman/decius"
+ },
+ {
+  "order": 59,
+  "period": "Roman Empire",
+  "dynasty": "The Decian Dynasty",
+  "text": "Hostilianus, son of Decius, colleague of Gallus (251)",
+  "href": null
+ },
+ {
+  "order": 60,
+  "period": "Roman Empire",
+  "dynasty": "The Decian Dynasty",
+  "text": "Gallus, military commander (251–253)",
+  "href": "/encyclopedia/people/history/roman/gallus"
+ },
+ {
+  "order": 61,
+  "period": "Roman Empire",
+  "dynasty": "The Decian Dynasty",
+  "text": "Aemilianus, military commander (253)",
+  "href": null
+ },
+ {
+  "order": 62,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Valerian, military commander (253–260)",
+  "href": "/encyclopedia/people/history/roman/valerian-roman-emperor"
+ },
+ {
+  "order": 63,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Gallienus, son of Valerian, coemperor with his father and later sole emperor (253–268)",
+  "href": "/encyclopedia/people/history/roman/gallienus"
+ },
+ {
+  "order": 64,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Claudius II, military commander (268–270)",
+  "href": "/encyclopedia/people/history/roman/claudius-ii"
+ },
+ {
+  "order": 65,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Aurelian, chosen by Claudius II as successor (270–275)",
+  "href": "/encyclopedia/people/history/roman/aurelian"
+ },
+ {
+  "order": 66,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Tacitus, chosen by the senate (275–276)",
+  "href": "/encyclopedia/people/history/roman/tacitus-roman-emperor"
+ },
+ {
+  "order": 67,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Florianus, half brother of Tacitus (276)",
+  "href": null
+ },
+ {
+  "order": 68,
+  "period": "Roman Empire",
+  "dynasty": "The Valerian Dynasty",
+  "text": "Probus, military commander (276–282)",
+  "href": "/encyclopedia/people/history/roman/probus"
+ },
+ {
+  "order": 69,
+  "period": "Roman Empire",
+  "dynasty": "The Caran Dynasty",
+  "text": "Carus, proclaimed by the Praetorian Guard (282–283)",
+  "href": "/encyclopedia/people/history/roman/carus"
+ },
+ {
+  "order": 70,
+  "period": "Roman Empire",
+  "dynasty": "The Caran Dynasty",
+  "text": "Carinus, son of Carus (283–285)",
+  "href": "/encyclopedia/people/history/roman/carinus"
+ },
+ {
+  "order": 71,
+  "period": "Roman Empire",
+  "dynasty": "The Caran Dynasty",
+  "text": "Numerianus, son of Carus, joint emperor with Carinus (283–284)",
+  "href": null
+ },
+ {
+  "order": 72,
+  "period": "Roman Empire",
+  "dynasty": "The Caran Dynasty",
+  "text": "Diocletian, military commander, divided the empire; ruled jointly with Maximian and Constantius I 284–305)",
+  "href": "/encyclopedia/people/history/roman/diocletian"
+ },
+ {
+  "order": 73,
+  "period": "Roman Empire",
+  "dynasty": "The Caran Dynasty",
+  "text": "Maximian, appointed joint emperor by Diocletian (286–305)",
+  "href": "/encyclopedia/people/history/roman/maximian"
+ },
+ {
+  "order": 74,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Constantius I, joint emperor and successor of Diocletian (305–306)",
+  "href": "/encyclopedia/people/history/roman/constantius-i"
+ },
+ {
+  "order": 75,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Galerius, joint emperor with Constantius I (305–310)",
+  "href": "/encyclopedia/people/history/roman/galerius"
+ },
+ {
+  "order": 76,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Maximin, nephew of Galerius (308–313)",
+  "href": "/encyclopedia/people/history/roman/maximin-d-313-roman-emperor"
+ },
+ {
+  "order": 77,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Licinius, appointed emperor in the West by Galerius; later emperor in the East (308–324)",
+  "href": "/encyclopedia/people/history/roman/licinius-roman-emperor"
+ },
+ {
+  "order": 78,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Maxentius, son of Maximian (306–312)",
+  "href": "/encyclopedia/people/history/roman/maxentius"
+ },
+ {
+  "order": 79,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Constantine I (the Great), son of Constantius I (306–337) and first emperor to convert to Christianity",
+  "href": "/encyclopedia/people/history/roman/constantine-i-roman-emperor"
+ },
+ {
+  "order": 80,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Constantine II, son of Constantine I (337–340)",
+  "href": "/encyclopedia/people/history/roman/constantine-ii-roman-emperor"
+ },
+ {
+  "order": 81,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Constans, son of Constantine I (337–350)",
+  "href": "/encyclopedia/people/history/roman/constans-i"
+ },
+ {
+  "order": 82,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Constantius II, son of Constantine I (337–361)",
+  "href": "/encyclopedia/people/history/roman/constantius-ii"
+ },
+ {
+  "order": 83,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Magnentius, usurped Constans' throne, (350–353)",
+  "href": null
+ },
+ {
+  "order": 84,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Julian (the Apostate), nephew of Constantine I (361–363)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/julian-the-apostate"
+ },
+ {
+  "order": 85,
+  "period": "Roman Empire",
+  "dynasty": "The Constantinian Dynasty",
+  "text": "Jovian, elected by the army (363–364)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/jovian"
+ },
+ {
+  "order": 86,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Valentinian I, proclaimed by the army; ruled in the West (364–375)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/valentinian-i"
+ },
+ {
+  "order": 87,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Valens, brother of Valentinian I; ruled in the East (364–378)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/valens"
+ },
+ {
+  "order": 88,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Gratian, son of Valentinian I; coruler in the West with Valentinian II (375–383)",
+  "href": "/encyclopedia/people/history/roman/gratian-roman-emperor-of-the-west"
+ },
+ {
+  "order": 89,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Maximus, usurper in the West (383–388)",
+  "href": "/encyclopedia/people/history/roman/maximus-magnus-clemens"
+ },
+ {
+  "order": 90,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Valentinian II, son of Valentinian I, ruler of the West (375–392)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/valentinian-ii"
+ },
+ {
+  "order": 91,
+  "period": "Roman Empire",
+  "dynasty": "The Valentinian Dynasty",
+  "text": "Eugenius, usurper in the West (393–394)",
+  "href": null
+ },
+ {
+  "order": 92,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Theodosius I (the Great), appointed ruler of the East (379–395) by Gratian; last ruler of united empire (394–395)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/theodosius-i"
+ },
+ {
+  "order": 93,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Honorius, son of Theodosius (395–423)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/honorius"
+ },
+ {
+  "order": 94,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Maximus, usurper in Spain (409–411)",
+  "href": null
+ },
+ {
+  "order": 95,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Constantius III, named joint emperor by Honorius (421)",
+  "href": "/encyclopedia/people/history/roman/constantius-iii"
+ },
+ {
+  "order": 96,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Valentinian III, nephew of Honorius and son of Constantius III (425–455)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/valentinian-iii"
+ },
+ {
+  "order": 97,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Arcadius, son of Theodosius I (395–408)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/arcadius"
+ },
+ {
+  "order": 98,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Theodosius II, son of Arcadius, (408–450)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/theodosius-ii"
+ },
+ {
+  "order": 99,
+  "period": "Roman Empire",
+  "dynasty": "The Theodosian Dynasty",
+  "text": "Marcian, brother-in-law of Theodosius II (450–457)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/marcian"
+ },
+ {
+  "order": 100,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Petronius Maximus, bought office by bribery (455)",
+  "href": null
+ },
+ {
+  "order": 101,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Avitus, placed in office by Goths (455–456)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/avitus"
+ },
+ {
+  "order": 102,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Majorian, puppet emperor of Ricimer (457–461)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/majorian"
+ },
+ {
+  "order": 103,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Libius Severus, puppet emperor of Ricimer (461–465)",
+  "href": null
+ },
+ {
+  "order": 104,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Anthemius, appointed by Ricimer and Leo I (467–472)",
+  "href": null
+ },
+ {
+  "order": 105,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Olybrius, appointed by Ricimer (472–473)",
+  "href": null
+ },
+ {
+  "order": 106,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Glycerius, appointed by Leo I (473–474)",
+  "href": null
+ },
+ {
+  "order": 107,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Julius Nepos, appointed by Leo I (474–475)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/nepos-julius"
+ },
+ {
+  "order": 108,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the West",
+  "text": "Romulus Augustulus, put in office by Orestes, his father (474–476)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/romulus-augustulus"
+ },
+ {
+  "order": 109,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the East",
+  "text": "Leo I, chosen by the senate (457–474)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/leo-i-byzantine-emperor"
+ },
+ {
+  "order": 110,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the East",
+  "text": "Leo II, grandson of Leo I (474)",
+  "href": null
+ },
+ {
+  "order": 111,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the East",
+  "text": "Zeno (474–475)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/zeno"
+ },
+ {
+  "order": 112,
+  "period": "Roman Empire",
+  "dynasty": "Emperors in the East",
+  "text": "Basilicus (475–476)",
+  "href": "/encyclopedia/history/classical/byzantine-bios/basiliscus"
+ },
+ {
+  "order": 113,
+  "period": "The Byzantines and the Fall of Rome",
+  "dynasty": null,
+  "text": "Byzantium: Emperors",
+  "href": "/biographies/government-politics/world-leaders/byzantium-emperors"
+ }
+]

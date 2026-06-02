@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Rulers of Ancient Rome — from Romulus to the fall of the West</title>
+  <meta name="description" content="A portrait gallery of the rulers of Rome — kings, consuls, and emperors from 753 BC to the fall of the Western Empire in 476 — built on Wikipedia and Wikidata. Walk the line of succession, and speak with an avatar of those whose lives are best recorded." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..600&display=swap" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script>
+    // Set theme before paint to avoid a flash.
+    (function () {
+      try {
+        var saved = localStorage.getItem("roar-theme");
+        if (saved === "dark" || saved === "light") {
+          document.documentElement.setAttribute("data-theme", saved);
+        } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href=".">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <!-- a stylised laurel-flanked SPQR aquila, abstracted to two leaves + a standard -->
+        <path class="bm-leaf" d="M9 25 C4 19 5 11 10 6 C9 13 10 19 13 24 Z" />
+        <path class="bm-leaf" d="M23 25 C28 19 27 11 22 6 C23 13 22 19 19 24 Z" />
+        <rect class="bm-staff" x="15" y="5" width="2" height="22" rx="1" />
+        <path class="bm-eagle" d="M11 9 L16 7 L21 9 L16 12 Z" />
+      </svg>
+      <span class="brand-text">Rulers of <em>Ancient Rome</em></span>
+    </a>
+
+    <div class="topbar-right">
+      <label class="search" aria-label="Search rulers">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>
+        <input type="search" id="search" placeholder="Search by name…" autocomplete="off" spellcheck="false" />
+      </label>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light or dark">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><g stroke-linecap="round"><line x1="12" y1="2.5" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="21.5"/><line x1="2.5" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="21.5" y2="12"/><line x1="5.2" y1="5.2" x2="7" y2="7"/><line x1="17" y1="17" x2="18.8" y2="18.8"/><line x1="5.2" y1="18.8" x2="7" y2="17"/><line x1="17" y1="7" x2="18.8" y2="5.2"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5 A8.5 8.5 0 0 1 9.5 4 A8.5 8.5 0 1 0 20 14.5 Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Timeline ribbon: 753 BC -> AD 476, period bands at true proportion -->
+  <div class="ribbon" id="ribbon" aria-label="Timeline of Rome">
+    <div class="ribbon-track" id="ribbon-track"></div>
+  </div>
+
+  <aside class="margin" id="margin">
+    <section class="m-section">
+      <h2 class="m-title">The line of Rome</h2>
+      <p class="m-lede" id="m-lede">Loading the rulers…</p>
+    </section>
+
+    <hr class="m-rule" />
+
+    <section class="m-section">
+      <div class="m-section-head">
+        <h3 class="m-subtitle">Periods</h3>
+        <button class="link-btn" id="period-all">all</button>
+      </div>
+      <div class="period-list" id="period-list"></div>
+    </section>
+
+    <hr class="m-rule" />
+
+    <section class="m-section">
+      <h3 class="m-subtitle">Dynasties &amp; houses</h3>
+      <nav class="dyn-list" id="dyn-list" aria-label="Jump to dynasty"></nav>
+    </section>
+
+    <hr class="m-rule" />
+
+    <section class="m-section m-hint">
+      <p class="legend-row">
+        <span class="chat-dot" aria-hidden="true"></span>
+        <span>A <strong>speak with them</strong> badge marks rulers whose lives
+        are recorded fully enough to host an avatar.</span>
+      </p>
+      <p class="m-fineprint">Roster mirrors <a href="https://www.infoplease.com/biographies/government-politics/world-leaders/roman-republic-and-roman-empire-rulers" target="_blank" rel="noopener">infoplease</a>, enriched from <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a> &amp; <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a>.</p>
+    </section>
+  </aside>
+
+  <main class="stage" id="stage">
+    <div class="roster" id="roster" aria-live="polite"></div>
+  </main>
+
+  <!-- Detail drawer -->
+  <section class="detail" id="detail" aria-hidden="true" role="dialog" aria-modal="false" aria-label="Ruler detail">
+    <button class="detail-close" id="detail-close" aria-label="Close">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3 L13 13 M13 3 L3 13"/></svg>
+    </button>
+    <div class="detail-body" id="detail-body"></div>
+  </section>
+  <div class="scrim" id="scrim" hidden></div>
+
+  <footer class="footer">
+    <span>Made with <span class="heart">&lt;3</span> in Bologna by <a href="https://openhistorymap.org" target="_blank" rel="noopener">OpenHistoryMap</a></span>
+    <span class="footer-sep">·</span>
+    <span>text &amp; portraits © <a href="https://www.wikipedia.org" target="_blank" rel="noopener">Wikipedia</a> / <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> · facts <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a></span>
+    <span class="footer-sep">·</span>
+    <a href="https://github.com/openhistorymap/rulers.ofancientrome.org" target="_blank" rel="noopener">source</a>
+  </footer>
+
+  <script src="chat.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
