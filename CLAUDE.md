@@ -77,8 +77,11 @@ Plain HTML/CSS/JS, **no build step**, **relative paths only** (custom domain +
 any `/staging/` subpath both work). Loads `data/manifest.json` + `data/rulers.json`,
 lazy-loads `data/rulers/<id>.json` on card click. Timeline ribbon is
 proportional period bands (navigation, not a data viz). Theme persists in
-localStorage. Design context: `.impeccable.md` (Cinzel + EB Garamond; period
-accents kingdom/republic/empire = bronze/crimson/Tyrian-purple).
+localStorage. Design is **lapidary epigraphic** — the page as an inscription cut
+in travertine: square edges, busts in arched niches with Roman-numeral catalogue
+marks, carved lintels, gold hairlines, OKLCH stone palette. Marcellus SC + Cardo;
+period pigments kingdom/republic/empire = bronze/red-ochre/porphyry (pigment in
+rules & tags, never a border stripe). Full design context in `.impeccable.md`.
 
 The avatar (`chat.js`) builds its grounding prompt from the harvested facts and
 greets in-character now; sending a message returns a self-aware holding reply
