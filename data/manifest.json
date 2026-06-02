@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T10:06:27+00:00",
+  "generated_at": "2026-06-02T10:41:33+00:00",
   "title": "Rulers of Ancient Rome",
   "totals": {
     "rulers": 112,
@@ -34,7 +34,7 @@
         "gracchi"
       ],
       "referenced_labels": 597,
-      "elapsed_seconds": 41.6
+      "elapsed_seconds": 31.1
     },
     "wikipedia": {
       "status": "ok",
@@ -42,7 +42,7 @@
       "total": 112,
       "chat_ready": 88,
       "no_match": [],
-      "elapsed_seconds": 8.1
+      "elapsed_seconds": 7.0
     }
   }
 }
