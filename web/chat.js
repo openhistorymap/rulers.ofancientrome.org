@@ -1,17 +1,23 @@
 /* chat.js — the avatar shell.
  *
- * The model is not wired yet (by design — see CLAUDE.md). What IS real here:
- *   1. buildPersonaPrompt(ruler) — the grounding system prompt assembled from
- *      the ruler's harvested facts. The future chat backend (../chat/) mirrors
- *      this server-side; keeping it here documents the contract and powers a
- *      live "how this avatar is grounded" preview.
- *   2. a templated in-character greeting, so the avatar already has a voice.
+ * The avatar is answered by the shared people.ofthepast.org API
+ * (chat.people.ofthepast.org, repo openfantasymap/avatars), which grounds it on
+ * this gallery's published record and replies through an OpenAI-compatible
+ * model. What lives here:
+ *   1. buildPersonaPrompt(ruler) — a client-side mirror of the server's
+ *      grounding prompt, powering the live "how this avatar is grounded" preview.
+ *   2. a templated in-character greeting, so the avatar has a voice on open.
  *
- * It never fabricates historical answers: until the oracle is connected, a
- * reply is a self-aware holding message, not invented history.
+ * It never fabricates history: a message POSTs to the API; if the backend is
+ * unreachable (or not yet deployed) the reply is a self-aware holding message,
+ * not invented history.
  */
 (function () {
-  const CONTACT = "https://rulers.ofthepast.org"; // placeholder for future API base
+  const API = "https://chat.people.ofthepast.org";   // shared avatars API
+  const SITE = "rome";                                // this gallery's site key
+  const HOLDING =
+    "My full voice is not yet restored to this hall — the oracle that would let me " +
+    "answer you is still being kindled. Return soon, and I shall speak with you properly.";
 
   function fmtYear(y) {
     if (y === null || y === undefined) return null;
@@ -132,18 +138,33 @@
     const input = host.querySelector("#chat-input");
     setTimeout(() => input.focus(), 60);
 
+    const history = [];
     const form = host.querySelector("#chat-form");
-    form.onsubmit = (e) => {
+    form.onsubmit = async (e) => {
       e.preventDefault();
       const v = input.value.trim();
       if (!v) return;
       bubble("you", v);
+      history.push({ role: "user", content: v });
       input.value = "";
-      setTimeout(() => {
-        bubble("them",
-          "My full voice is not yet restored to this hall — the oracle that would let me answer you is still being kindled. " +
-          "Return soon, and I shall speak with you properly.");
-      }, 450);
+      const pending = bubble("them", "…");
+      pending.style.opacity = "0.55";
+      try {
+        const res = await fetch(`${API}/chat/${SITE}/${ruler.id}`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ messages: history }),
+        });
+        if (!res.ok) throw new Error("status " + res.status);
+        const data = await res.json();
+        pending.style.opacity = "";
+        pending.textContent = data.reply;
+        history.push({ role: "assistant", content: data.reply });
+      } catch (err) {
+        // Backend not yet awakened (or unreachable) — stay in character, never invent.
+        pending.style.opacity = "";
+        pending.textContent = HOLDING;
+      }
     };
   }
 

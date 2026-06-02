@@ -18,9 +18,12 @@ hero is the face and the line of succession, not a basemap.
   roster hands off to the sibling site **`rulers.ofthepast.org`** — same system,
   carried forward through the centuries after Rome. The handoff is data
   (`manifest.handoff`), rendered as the porphyry card at the end of the roster.
-- **Avatar chat: explorer first, model later.** The grounded persona prompt and
-  the chat shell are real now; the LLM call is a one-spot wiring left for later
-  (see `chat/`). It must never fabricate history.
+- **Avatar chat is served by the shared API.** `web/chat.js` POSTs to
+  `chat.people.ofthepast.org` (repo `openfantasymap/avatars`), the one chat
+  service behind all the ruler galleries — it fetches this site's published
+  per-ruler JSON, grounds the persona, and answers via an OpenAI-compatible
+  model. If that backend is unreachable the avatar stays in character with a
+  holding reply. It must never fabricate history.
 
 ## Layout
 
@@ -39,8 +42,7 @@ harvester/        Python pipeline (no map deps). `python -m harvester`.
     wikipedia_enrich.py  lead biography + image + chat-readiness
   harvest.py      orchestrator -> data/
 web/              static frontend (no build step, relative paths only)
-  index.html  style.css  app.js  chat.js
-chat/             FastAPI avatar microservice — STUB (LLM not yet wired)
+  index.html  style.css  app.js  chat.js  (chat.js calls the shared avatars API)
 data/             GENERATED, machine-owned. Committed; published by Deploy.
   rulers.json            compact index for the gallery + ribbon
   rulers/<id>.json       full per-ruler detail (bio, relations, links)
@@ -83,10 +85,11 @@ marks, carved lintels, gold hairlines, OKLCH stone palette. Marcellus SC + Cardo
 period pigments kingdom/republic/empire = bronze/red-ochre/porphyry (pigment in
 rules & tags, never a border stripe). Full design context in `.impeccable.md`.
 
-The avatar (`chat.js`) builds its grounding prompt from the harvested facts and
-greets in-character now; sending a message returns a self-aware holding reply
-until the backend is connected. `chat/app/persona.py` mirrors that prompt
-server-side so browser preview and backend ground identically.
+The avatar (`chat.js`) greets in-character and shows a live "how this avatar is
+grounded" preview built from the harvested facts; sending a message POSTs to the
+shared avatars API (`chat.people.ofthepast.org`), which rebuilds the same
+grounding from this site's published JSON and answers. If the backend is
+unreachable the reply is a self-aware holding message — never invented history.
 
 ## Deploy
 
@@ -104,8 +107,8 @@ the manifest → Deploy*.
 ## House rules
 
 - `data/` is machine-owned harvester output — never hand-edit it.
-- No hard-coded credentials. The chat key is read from env (`ANTHROPIC_API_KEY`),
-  never committed.
+- No hard-coded credentials. This repo holds no chat key — the model key lives
+  only in the shared avatars service (`openfantasymap/avatars`).
 - No tests. Don't claim a change is "tested" because nothing broke at import.
 - Portraits/biographies are hot-linked from Wikimedia/Wikipedia; keep the credit
   line in the detail panel and footer.
